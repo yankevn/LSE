@@ -1,0 +1,18 @@
+Sees line
+Follows line
+Sees alien
+Stahp
+Shout
+When alien gone, see line
+follow line 
+loop
+
+start
+motors run forward
+loop1   check value of sensor
+	based on value, go left or right
+	if sees green, shout and stop motors
+	wait for green to leave
+	go to loop1
+
+
